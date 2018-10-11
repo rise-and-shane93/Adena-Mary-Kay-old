@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+header#header.info h2 {
+  display: none;
+}
+#container, html.embed {
+  background: #AFEEEE;
+}
+.wufoo input.text,
+.wufoo textarea.textarea {
+  background-color: #000;
+  font-family: 'Playfair Display', sans-serif;
+}
+.wufoo input.btTxt {
+  background-color: green;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

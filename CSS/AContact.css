@@ -1,0 +1,376 @@
+body {
+  margin: auto !important;
+}
+footer {
+  margin: auto;
+  max-width: 1300px;
+}
+/*
+footer {
+  width: 75%;
+  margin: auto;
+  border: 3px solid #002140;
+} */
+
+/* HEADER AND TEXT STYLES ---------------- */
+
+h1 {
+  padding-top: 25px;
+  font-family: 'Vidaloka', sans-serif;
+  text-align: center;
+
+}
+#contact-form h1 {
+  margin-bottom: 25px;
+}
+h3 {
+  font-family: 'Vidaloka', sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+}
+p {
+  font-family: 'Playfair Display', sans-serif;
+  text-align: justify;
+}
+#contact-form p {
+  text-align: center;
+}
+.email {
+  color: #CA1F7B;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin-top: 30px;
+}
+.legal {
+  text-align: center;
+  margin-top: 10px;
+}
+.center-text {
+  text-align: center;
+  margin: 0;
+}
+
+/* NAVIGATION BAR ---------------- */
+
+.navbar {
+  margin-top: 15px;
+  padding-top: 0 !important;
+}
+.navbar-nav {
+  margin: auto;
+}
+.nav-item {
+  position: relative;
+  display: inline-block;
+}
+.nav-link {
+  color: #CA1F7B !important;
+  font-family: 'Josefin Slab', sans-serif;
+  margin-right: 2.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: transform .3s !important;
+  backface-visibility: hidden;
+}
+.active {
+  color: black !important;
+  font-weight: bolder;
+}
+.navbar-brand {
+  font-family: 'Josefin Slab', sans-serif;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+/* IDS ---------------- */
+
+/* WUFOO ----------------
+
+#wufoo-z15apl790qlqh2p {
+  width: 60%;
+  margin: auto;
+  padding-top: 30px;
+}
+*/
+
+
+/* FORM ----------------*/
+
+form {
+  width: 50%;
+  margin: auto;
+}
+#name,
+#email,
+#subject,
+#message {
+	width: 100%;
+	margin: auto;
+	padding: 5px;
+	display: block;
+  font-family: 'Vidaloka', sans-serif;
+}
+.checkboxes {
+  font-family: 'Vidaloka', sans-serif;
+}
+textarea {
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+.margin-bottom {
+	margin-bottom: 10px;
+}
+button {
+  font-family: 'Vidaloka', sans-serif;
+}
+
+/* PAGE SECTIONS ---------------- */
+
+#top {
+  margin: auto;
+  max-width: 1300px;
+}
+#contact-form {
+  background-color: #AFEEEE;
+  padding-bottom: 50px;
+}
+#awards {
+  width: 100%;
+}
+/* MULTIMEDIA ---------------- */
+
+.logo-image {
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.profile-pic {
+  width: 300px;
+}
+.small-pic {
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.large-image {
+  width: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* PAGE ARTICLES ---------------- */
+
+#contact {
+  width: 65%;
+  margin: auto;
+}
+
+/* LISTS ---------------- */
+
+#awards ul {
+  margin: 25px 0;
+  padding:0;
+  list-style-type:none;
+  text-align: center;
+}
+/*This is how you need to horizontally align the images in the certifications
+section. Set the display to inline-block on li then align it to center on the ul. */
+#awards li {
+  display: inline-block;
+  margin: 0 50px;
+}
+
+/* PSEUDO CLASSES ---------------- */
+
+.nav-link:hover {
+  color: #CA1F7B;
+  transform: scale(1.2);
+}
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-linkedin-square:hover {
+  background-color: #CA1F7B;
+  color: white;
+  transition: .4s !important;
+}
+.email:hover {
+  color: #FFB6C1;
+}
+  /* cool navbar transition. It has to target the parent nav-item element to work. */
+ /*
+.nav-item::before {
+  content: '';
+  display: block;
+  top: 0;
+  width: 0%;
+  height: 5px;
+  background-color: #314455;
+  position: relative;
+  transition: all ease-in-out 250ms;
+}
+
+.nav-item:hover::before {
+  width: 80%;
+}
+*/
+
+/* SLIDESHOW ---------------- */
+
+.carousel {
+  width: 50%;
+  margin: auto;
+}
+
+/* FONT AWESOME ---------------- */
+
+#social-media ul {
+  list-style-type: none;
+}
+#social-media a {
+  text-decoration: none;
+}
+.fa-facebook,
+.fa-twitter,
+.fa-instagram,
+.fa-linkedin-square {
+  color: #CA1F7B;
+  font-size: 15px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  margin: 3px 2px;
+  padding-top: 6px;
+  transition: transform .2s !important;
+  backface-visibility: hidden;
+  align: right;
+  border: 2px solid #CA1F7B;
+  border-radius: 50%;
+}
+.fa-calendar {
+  text-align: center;
+  font-size: 20px;
+}
+.social-media {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+/* REQUEST APPOINTMENT ---------------- */
+
+#request {
+  width: 150px;
+  margin-top: 25px;
+  margin-left: 25px;
+  border: 1px solid #CA1F7B;
+  border-radius: 25px;
+  background-color: #CA1F7B;
+  box-shadow: 5px 5px 10px 0;
+  transition: .1s !important;
+}
+#request:hover {
+  box-shadow: none;
+  background-color: #FF1493;
+  border: 1px solid #FF1493;
+  transition: .1s !important;
+  transform: translate(5px, 5px);
+}
+#request p {
+  text-align: center;
+}
+#request a {
+  text-decoration: none;
+  color: white;
+}
+.fa-calendar {
+  padding: 10px 50px 0px 50px;
+  font-size: 50px !important;
+}
+#request hr {
+  width: 85%;
+  background-color: white;
+}
+/* OTHER ---------------- */
+hr {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 85%;
+  background-color: black;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.container-fluid {
+  padding: 0 !important;
+}
+
+/* MEDIA QUERIES ---------------- */
+@media (max-width: 850px) {
+  #sm-list .fa-facebook,
+  #sm-list .fa-twitter,
+  #sm-list .fa-instagram,
+  #sm-list .fa-linkedin-square {
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin: 6px 5px;
+    padding-top: 12px;
+    transition: .2s !important;
+    backface-visibility: hidden;
+    align: right;
+    border: 2px solid #CA1F7B;
+    border-radius: 50%;
+  }
+  /* CSS specific to this page */
+  form {
+    width: 75%;
+  }
+}
+@media (max-width: 450px) {
+  footer #awards {
+    display: none;
+  }
+  .profile-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 150px;
+  }
+  .logo-image {
+    width: 100%;
+  }
+  #sm-list {
+    width: 100%;
+  }
+  #top ul {
+    width: 100%;
+  }
+  #request {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    box-shadow: none;
+  }
+  .nav-link:hover {
+    transform: none;
+    color: black !important;
+  }
+  /* CSS specific to this page */
+  form {
+    width: 100%;
+  }
+  #contact-form h1 {
+    font-size: 24px;
+  }
+}
