@@ -1,0 +1,163 @@
+<!DOCTYPEhtml>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|Josefin+Slab|Playfair+Display|Vidaloka">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css">
+    <link rel="stylesheet" href="CSS/AHhome.css">
+    <meta name="viewport" content="width=device-width">
+<!--You HAVE to link your CSS file AFTER linking bootstrap, otherwise you'll have to override a lot of stuff in CSS.-->
+  </head>
+    <body>
+      <div class="container-fluid">
+        <header>
+          <section id="top">
+            <div class="row">
+
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4"><!-- That only equals 10 - col-md's -->
+                <div style="padding: 15px 10px 15px 55px;">
+                  <article id="request">
+                    <a href="https://calendly.com/serendipity" target="_blank">
+                      <i class="fa fa-calendar" aria-hidden"true"></i>
+                      <hr>
+                      <p>Request an<br>appointment!</p>
+                    </a>
+                  </article>
+                </div>
+            <!--this can use a lot of work.-->
+              </div>
+
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-8">
+                  <article id="logo">
+                    <img src="images/headerfooter/adena_logo.jpg" alt="Logo for Adena's Mary Kay Unit. The logo is 'building
+                    something beautiful' but it is spelled for beautiful to emphasize you" title="Be &#91;YOU&#93;tiful!" class="logo-image">
+                  </article>
+                </div>
+
+                <!-- It's easier to make some spaces like this for easy visual scanning btw -->
+                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+                  <article id="social-media">
+                    <ul id="sm-list">
+                      <li class="social-media"><a href="https://www.facebook.com/AdenaHarperMaryKay/"
+                        target="_blank" class="fa fa-facebook" aria-hidden="true"></a></li>
+                      <li class="social-media"><a href="#" class="fa fa-instagram" aria-hidden="true"></a></li>
+                      <li class="social-media"><a href="#" class="fa fa-linkedin-square" aria-hidden="true"></a></li>
+                    </ul>
+                    <ul>
+                      <li><p><a href="mailto:adena@marykay.com?Subject=Hey%20Adena&#33" class="email">
+                        adena@marykay.com</a></p></li>
+                      <li><p><a href="tel:1-770-285-1114" class="email">
+                        (770) 285-1114</a></p></li>
+                    </ul>
+                  </article>
+                </div>
+
+            </div>
+          </section>
+
+        <section id="navigation">
+            <nav class="navbar navbar-toggleable-md navbar-expand-lg navbar-light bg-faded">
+              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!--Get a nice-looking logo to put here for navbar-brand.-->
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="AdenaAbout.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="AdenaServices.html">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="AdenaMore.html">More</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+    <!--Ask the guys at FCC if this is a good practice to set spaces in between content in the header.-->
+        </section>
+      </header>
+    <main>
+      <section id="contact-form">
+        <!--  <div id="wufoo-z15apl790qlqh2p">
+            Fill out my <a href="https://riseandshane93.wufoo.com/forms/z15apl790qlqh2p">online form</a>.
+            </div>
+            <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Use <a href="http://www.wufoo.com/gallery/templates/">Wufoo templates</a> to make your own HTML forms.</div>
+            <script type="text/javascript">var z15apl790qlqh2p;(function(d, t) {
+            var s = d.createElement(t), options = {
+            'userName':'riseandshane93',
+            'formHash':'z15apl790qlqh2p',
+            'autoResize':true,
+            'height':'530',
+            'async':true,
+            'host':'wufoo.com',
+            'header':'show',
+            'ssl':true};
+            s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+            s.onload = s.onreadystatechange = function() {
+            var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+            try { z15apl790qlqh2p = new WufooForm();z15apl790qlqh2p.initialize(options);z15apl790qlqh2p.display(); } catch (e) {}};
+            var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+          })(document, 'script');</script> -->
+
+
+        <h1>I want to hear from <strong>you!</strong></h1>
+          <p>Get in touch with us online by filling out the form below
+            and we will be in touch with you shortly.</p>
+              <form method="post" action="https://formspree.io/adena@marykay.com">
+      					<div class="margin-bottom">
+        					  <input class="form-control" type="text" name="name" id="name" placeholder = "Name" required />
+      					</div>
+      					<div class="margin-bottom">
+      					  <input class="form-control" type="email" name="email" id="email" placeholder = "Email" required />
+      					</div>
+      					<div class="margin-bottom">
+      					  <input class="form-control" type="text" name="subject" id="subject" placeholder = "Subject"/>
+      					</div>
+                <div class="margin-bottom">
+      					  <textarea class="form-control" name="message" id="message" rows="5" placeholder="Message"></textarea>
+      					</div>
+      	<!--Try to get the margins to work. Ask if this is a good layout or float the first two input elements.-->
+      				<button type="submit" name="submit" class="btn btn-block btn-success btn-submit margin-bottom">Submit!</button>
+      <!--Add the function to submit this. Also, try to add space between the button and the footer.-->
+            </form>
+      </section>
+    </main>
+    <footer>
+      <section id="awards">
+        <div class="clearfix">
+          <ul>
+            <li><img src="images/headerfooter/mk_logo.png" alt="Mary Kay Cosmetics logo"
+            title="Mary Kay Cosmetics!" class="small-pic"></li>
+            <li><img src="images/headerfooter/mk_awards.jpg" alt="generic logo award"
+            title="generic logo award" class="small-pic"></li>
+            <li><img src="images/headerfooter/queens_court.png" alt="Queens Court of Sales award"
+            title="Adena has won the Queens Court of Sales award for 12 years!" class="small-pic"></li>
+            <li><img src="images/headerfooter/CBC.jpg" alt="Logo for the Cartersville-Bartow County Chamber of Commerce"
+            title="Cartersville-Bartow County Chamber of Commerce" class="small-pic"></li>
+          </ul>
+        </div>
+      </section>
+      <p class="center-text"><a href="#top">Back to top <i class="fa fa-arrow-up" aria-hidden="true"></i></a></p>
+      <hr>
+      <article id="legal-info">
+        <p class="legal">&copy; Adena Harper, Independent Sales Director for Mary Kay Cosmetics.
+          Created by <a href="#">Shane Harper</a>.</p>
+      </article>
+    </footer>
+  </div>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"
+  integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+</html>
